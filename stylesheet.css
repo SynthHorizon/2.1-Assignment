@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(193, 193, 193);
+}
+
+.title {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background-color: #96a283;
+    width: max-content;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.article {
+    font-family: 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 65%;
+    width: 370px;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 1%;
+    margin-left: 65%;
+    width: 400px;
+}
+
+.citation{
+    font-family: 'Times New Roman', 'serif';
+    width: 20%;
+    margin-left: 60%;
+}
